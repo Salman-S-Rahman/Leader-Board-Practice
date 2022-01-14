@@ -27,17 +27,52 @@ li {
 }
 
 /* ========== common css end ============= */
+#header_part {
+    background: #562EFF;
+    margin-bottom: 30px;
+}
+
+nav {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+}
+
+.nav_left img {
+    width: 40px;
+    height: 51px;
+}
+
+.nav_left h2 {
+    margin-left: 10px;
+    color: #fff;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+}
+
+.nav_right a {
+    color: #fff;
+    margin: 0 10px;
+}
 
 /* =========== header part end =========== */
 #topPlayerBlog_part {
     background: #f1f1f1;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
 }
 
 #topPlayer_part {
     border-bottom: 2px solid #fff;
-    padding: 25px 0;
+    padding: 0 0 25px;
 }
 
 .players {
@@ -120,7 +155,7 @@ li {
 /* ========== course part end ============ */
 #course_part {
     background: #f1f1f1;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
     margin: 10px 0 20px;
 }

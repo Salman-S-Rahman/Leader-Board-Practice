@@ -70,8 +70,9 @@ li {
     row-gap: 15px;
 }
 
-.blog_title {
+.title {
     margin-bottom: 20px;
+    color: #562EFF;
 }
 
 .blog img {
@@ -111,8 +112,84 @@ li {
     padding: 25px 0 0 0;
 }
 
-/* ========== header part end ============ */
-/* ========== header part end ============ */
+/* ========== top & blog part end ============ */
+
+
+/* ========== course part end ============ */
+#course_part {
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px 0 20px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+
+}
+
+.course {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+}
+
+.course_img img {
+    width: 224px;
+    height: 127px;
+    border-radius: 10px;
+}
+
+.details h3 {
+    color: #1E1E1E;
+    font-size: 20px;
+}
+
+.details h3 span {
+    display: block;
+}
+
+.details h5 {
+    color: #ED6B4F;
+    font-size: 15px;
+}
+
+.course_review {
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+
+}
+
+.rating i {
+    color: #FFC014;
+    font-size: 13px;
+}
+
+.rating i:last-child {
+    color: gray;
+}
+
+.star {
+    color: gray;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.hour {
+    color: #FF4A60;
+    background: #FEE5DF;
+    width: 94px;
+    height: 29px;
+    border-radius: 15px;
+}
+
+.hour h6 {
+    text-align: center;
+    line-height: 29px;
+}
+
 /* ========== header part end ============ */
 /* ========== header part end ============ */
 /* ========== header part end ============ */
